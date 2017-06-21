@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 android {
     compileSdkVersion 18
-    buildToolsVersion "23.0.0"
+    buildToolsVersion '25.0.1'
 
     defaultConfig {
         applicationId "com.nordicsemi.nrfUARTv2"
-        minSdkVersion 18
-        targetSdkVersion 18
+        minSdkVersion 19
+        targetSdkVersion 26
     }
 
 
@@ -19,5 +19,9 @@ android {
 }
 
 dependencies {
+    compile 'com.jakewharton:butterknife:8.4.0'
+    compile 'com.jjoe64:graphview:4.2.1'
+
     compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:appcompat-v7:18.0.0'
 }

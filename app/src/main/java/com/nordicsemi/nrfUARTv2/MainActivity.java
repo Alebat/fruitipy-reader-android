@@ -31,13 +31,10 @@ import java.text.DateFormat;
 import java.util.Date;
 
 
-import com.nordicsemi.nrfUARTv2.UartService;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothManager;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -47,21 +44,16 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
 import android.content.res.Configuration;
-import android.media.Ringtone;
-import android.media.RingtoneManager;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -140,20 +132,12 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
             public void onClick(View v) {
             	EditText editText = (EditText) findViewById(R.id.sendText);
             	String message = editText.getText().toString();
-            	byte[] value;
-				try {
-					//send data to service
-					value = message.getBytes("UTF-8");
-					mService.writeRXCharacteristic(value);
-					//Update the log with time stamp
-					String currentDateTimeString = DateFormat.getTimeInstance().format(new Date());
-					listAdapter.add("["+currentDateTimeString+"] TX: "+ message);
-               	 	messageListView.smoothScrollToPosition(listAdapter.getCount() - 1);
-               	 	edtMessage.setText("");
-				} catch (UnsupportedEncodingException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+                send(message);
+                //Update the log with time stamp
+                String currentDateTimeString = DateFormat.getTimeInstance().format(new Date());
+                listAdapter.add("["+currentDateTimeString+"] TX: "+ message);
+                messageListView.smoothScrollToPosition(listAdapter.getCount() - 1);
+                edtMessage.setText("");
                 
             }
         });
@@ -161,7 +145,19 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
         // Set initial UI state
         
     }
-    
+
+    void send(String message) {
+        byte[] value;
+        try {
+            //send data to service
+            value = message.getBytes("UTF-8");
+            mService.writeRXCharacteristic(value);
+        } catch (UnsupportedEncodingException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
     //UART service connected/disconnected
     private ServiceConnection mServiceConnection = new ServiceConnection() {
         public void onServiceConnected(ComponentName className, IBinder rawBinder) {
@@ -208,6 +204,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
                              listAdapter.add("["+currentDateTimeString+"] Connected to: "+ mDevice.getName());
                         	 	messageListView.smoothScrollToPosition(listAdapter.getCount() - 1);
                              mState = UART_PROFILE_CONNECTED;
+                         Hooks.connected(MainActivity.this);
                      }
             	 });
             }
@@ -226,7 +223,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
                              mState = UART_PROFILE_DISCONNECTED;
                              mService.close();
                             //setUiState();
-                         
+                         Hooks.disconnected(MainActivity.this);
                      }
                  });
             }
@@ -244,6 +241,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
                      public void run() {
                          try {
                          	String text = new String(txValue, "UTF-8");
+                             Hooks.received(text);
                          	String currentDateTimeString = DateFormat.getTimeInstance().format(new Date());
                         	 	listAdapter.add("["+currentDateTimeString+"] RX: "+text);
                         	 	messageListView.smoothScrollToPosition(listAdapter.getCount() - 1);
@@ -297,7 +295,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
         unbindService(mServiceConnection);
         mService.stopSelf();
         mService= null;
-       
+       Hooks.onDestroy();
     }
 
     @Override
