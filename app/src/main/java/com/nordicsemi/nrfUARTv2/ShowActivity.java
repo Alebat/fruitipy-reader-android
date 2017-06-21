@@ -17,6 +17,8 @@ import butterknife.OnClick;
 
 public class ShowActivity extends Activity implements Hooks.Rice {
 
+    private boolean on;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,12 +32,25 @@ public class ShowActivity extends Activity implements Hooks.Rice {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        onBackPressed();
+                        if (on)
+                            onBackPressed();
                     }
                 });
             }
         });
         Hooks.setOnReceived(this);
+    }
+
+    @Override
+    protected void onResume() {
+        on = true;
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        on = false;
     }
 
     @Override
