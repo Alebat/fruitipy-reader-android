@@ -185,7 +185,7 @@ public class MainActivity extends Activity implements RadioGroup.OnCheckedChange
         }
     };
 
-    private final BroadcastReceiver UARTStatusChangeReceiver = new BroadcastReceiver() {
+    public final BroadcastReceiver UARTStatusChangeReceiver = new BroadcastReceiver() {
 
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();

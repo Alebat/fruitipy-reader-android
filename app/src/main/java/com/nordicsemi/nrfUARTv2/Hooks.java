@@ -11,18 +11,21 @@ public class Hooks {
     private static MainActivity activity;
     private static Runnable onDisconnect;
     private static Rice onReceived;
+    private static final boolean test = true;
 
     public static void received(String text) {
+        Log.i("TAG", "received " + text);
         if (text.contains("[") && text.contains("]")) {
-            String[] t = text.substring(text.indexOf('['), text.indexOf(']')).split(" ");
+            String[] t = text.substring(text.indexOf('[') + 1, text.indexOf(']')).split(" ");
             float[] brusciutto = new float[512];
             if (t.length < 512) {
                 for (int i = 0; i < t.length; i++) {
                     brusciutto[i] = Integer.parseInt(t[i].toUpperCase(), 16);
                 }
 
-                if (onReceived != null)
+                if (onReceived != null) {
                     onReceived.vuto(text, brusciutto, t.length);
+                }
             } else
                 Log.w("TAG", "Merda!!");
         } else
@@ -49,7 +52,22 @@ public class Hooks {
 
     public static void acquire() {
         if (activity != null) {
-            activity.send(ACQUIRE);
+            if (!test)
+                activity.send(ACQUIRE);
+            else
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        try {
+                            Thread.sleep(1000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        Intent i = new Intent(UartService.ACTION_DATA_AVAILABLE);
+                        i.putExtra(UartService.EXTRA_DATA, "[bc f2 e5 46 ae 89 e7 7d 53 bc 35 fd 78 ab 5f e8 54 cf 6b 23 fd 46 ef 8e a8 e5 f6 df ca dc 73 c4 bc f2 e5 46 ae 89 e7 7d 53 bc 35 fd 78 ab 5f e8 54 cf 6b 23 fd 46 ef 8e a8 e5 f6 df ca dc 73 c4]".getBytes());
+                        activity.UARTStatusChangeReceiver.onReceive(activity, i);
+                    }
+                }).start();
         }
     }
 
