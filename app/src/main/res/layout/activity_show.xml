@@ -11,6 +11,11 @@
             android:hint="ID"
             android:inputType="textUri"
             android:id="@+id/textid"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:id="@id/progress_horizontal"/>
         <com.jjoe64.graphview.GraphView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"

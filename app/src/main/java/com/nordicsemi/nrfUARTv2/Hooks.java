@@ -11,9 +11,30 @@ public class Hooks {
     private static MainActivity activity;
     private static Runnable onDisconnect;
     private static Rice onReceived;
-    private static final boolean test = true;
+    private static Pro onProgress;
+    private static final boolean test = false;
+    private static StringBuilder result = null;
+    private static final int NUM_PACKETS = 58;
+    private static int received = 0;
 
     public static void received(String text) {
+        if (text.startsWith("[")) {
+            if (result != null)
+                Log.e("WASTED", result.toString());
+            result = new StringBuilder();
+            result.append(text);
+            received = 0;
+        } else if (text.endsWith("]")) {
+            result.append(text);
+            complete(result.toString());
+        } else {
+            result.append(text);
+        }
+        received++;
+        onProgress.gresso(received, NUM_PACKETS);
+    }
+
+    public static void complete(String text) {
         Log.i("TAG", "received " + text);
         if (text.contains("[") && text.contains("]")) {
             String[] t = text.substring(text.indexOf('[') + 1, text.indexOf(']')).split(" ");
@@ -83,7 +104,15 @@ public class Hooks {
         Hooks.onReceived = callback;
     }
 
+    public static void setOnProgress(Pro callback) {
+        Hooks.onProgress = callback;
+    }
+
     interface Rice {
         void vuto(String text, float[] valori, int length);
+    }
+
+    interface Pro {
+        void gresso(int num, int outof);
     }
 }

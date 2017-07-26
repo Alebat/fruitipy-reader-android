@@ -5,11 +5,10 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.NavUtils;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
+import android.widget.ProgressBar;
 
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.series.DataPoint;
@@ -22,7 +21,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-public class ShowActivity extends Activity implements Hooks.Rice {
+public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
 
     private boolean on;
 
@@ -54,6 +53,7 @@ public class ShowActivity extends Activity implements Hooks.Rice {
         });
 
         Hooks.setOnReceived(this);
+        Hooks.setOnProgress(this);
     }
 
     @Override
@@ -91,6 +91,7 @@ public class ShowActivity extends Activity implements Hooks.Rice {
 
         LineGraphSeries<DataPoint> series = new LineGraphSeries<>(points);
         series.setThickness(2);
+        graph.removeAllSeries();
         graph.addSeries(series);
 
         findViewById(R.id.textid).setBackgroundColor(0xFFFFFFFF);
@@ -132,5 +133,12 @@ public class ShowActivity extends Activity implements Hooks.Rice {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void gresso(int num, int outof) {
+        Log.i("Progress", "num: " + num + ", outof: " + outof);
+        ((ProgressBar)findViewById(R.id.progress_horizontal)).setProgress(num);
+        ((ProgressBar)findViewById(R.id.progress_horizontal)).setMax(outof);
     }
 }
