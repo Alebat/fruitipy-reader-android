@@ -37,8 +37,6 @@ public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
             }
         });
 
-        ((EditText)findViewById(R.id.textid)).setText(new SimpleDateFormat("yyyyMMdd", Locale.ITALY).format(new Date()));
-
         Hooks.setOnDisconnect(new Runnable() {
             @Override
             public void run() {
@@ -105,7 +103,8 @@ public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
                     File folder = new File(Environment.getExternalStorageDirectory(), "PhysioREC/Spectrum/");
                     //noinspection ResultOfMethodCallIgnored
                     folder.mkdirs();
-                    String id = ((EditText) findViewById(R.id.textid)).getText().toString();
+                    String id = new SimpleDateFormat("yyyyMMdd", Locale.ITALY).format(new Date()).toString() + '_';
+                    id += ((EditText) findViewById(R.id.textid)).getText().toString();
                     File f;
                     int progressive = 0;
                     do {
