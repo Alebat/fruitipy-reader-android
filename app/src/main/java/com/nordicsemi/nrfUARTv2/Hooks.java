@@ -37,7 +37,7 @@ public class Hooks {
     public static void complete(String text) {
         Log.i("TAG", "received " + text);
         if (text.contains("[") && text.contains("]")) {
-            String[] t = text.substring(text.indexOf('[') + 1, text.indexOf(']')).split(" ");
+            String[] t = text.substring(text.indexOf('[') + 3, text.indexOf(']')).split(" ");
             float[] brusciutto = new float[512];
             if (t.length < 512) {
                 for (int i = 0; i < t.length; i++) {
