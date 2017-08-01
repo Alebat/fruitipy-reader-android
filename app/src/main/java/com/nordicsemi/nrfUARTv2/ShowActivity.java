@@ -80,7 +80,7 @@ public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(length);
         graph.getViewport().setMinY(0);
-        graph.getViewport().setMaxY(256);
+        graph.getViewport().setMaxY(710);
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getGridLabelRenderer().setGridColor(0xAAAAAAAA);
