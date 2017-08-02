@@ -67,9 +67,12 @@ public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
     }
 
     @Override
-    public void vuto(String text, final float[] valori, final int length) {
+    public void vuto(String text, final char code, final int[] valori, final int length) {
+        float maxy = 251;
         DataPoint[] points = new DataPoint[length];
         for (int i = 0; i < length; i++) {
+            if (valori[i] > maxy)
+                maxy = valori[i];
             points[i] = new DataPoint(i, valori[i]);
             Log.v("TAG", "point" + valori[i]);
         }
@@ -80,7 +83,7 @@ public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
         graph.getViewport().setMinX(0);
         graph.getViewport().setMaxX(length);
         graph.getViewport().setMinY(0);
-        graph.getViewport().setMaxY(710);
+        graph.getViewport().setMaxY(maxy+5);
         graph.getViewport().setYAxisBoundsManual(true);
         graph.getViewport().setXAxisBoundsManual(true);
         graph.getGridLabelRenderer().setGridColor(0xAAAAAAAA);
@@ -108,7 +111,7 @@ public class ShowActivity extends Activity implements Hooks.Rice, Hooks.Pro {
                     File f;
                     int progressive = 0;
                     do {
-                        f = new File(folder, String.format(Locale.ENGLISH, "%s_%05d.csv", id, progressive++));
+                        f = new File(folder, String.format(Locale.ENGLISH, "%s_%c_%05d.csv", id, code, progressive++));
                     } while (f.exists());
                     FileOutputStream y = new FileOutputStream(f, true);
                     y.write(b.toString().getBytes());

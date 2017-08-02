@@ -7,6 +7,9 @@ import android.util.Log;
 public class Hooks {
 
     private final static String ACQUIRE = "R";
+    private final static String INFO = "?";
+    private final static int LENGTH_WHITE = 256;
+    private final static int LENGTH_IR = 288;
     @SuppressLint("StaticFieldLeak")
     private static MainActivity activity;
     private static Runnable onDisconnect;
@@ -14,7 +17,7 @@ public class Hooks {
     private static Pro onProgress;
     private static final boolean test = false;
     private static StringBuilder result = null;
-    private static final int NUM_PACKETS = 58;
+    private static final int NUM_PACKETS = LENGTH_IR / 5;
     private static int received = 0;
 
     public static void received(String text) {
@@ -37,15 +40,16 @@ public class Hooks {
     public static void complete(String text) {
         Log.i("TAG", "received " + text);
         if (text.contains("[") && text.contains("]")) {
+            char code = text.charAt(text.indexOf('[') + 1);
             String[] t = text.substring(text.indexOf('[') + 3, text.indexOf(']')).split(" ");
-            float[] brusciutto = new float[512];
+            int[] brusciutto = new int[512];
             if (t.length < 512) {
                 for (int i = 0; i < t.length; i++) {
                     brusciutto[i] = Integer.parseInt(t[i].toUpperCase(), 16);
                 }
 
                 if (onReceived != null) {
-                    onReceived.vuto(text, brusciutto, t.length);
+                    onReceived.vuto(text, code, brusciutto, t.length);
                 }
             } else
                 Log.w("TAG", "Merda!!");
@@ -109,7 +113,7 @@ public class Hooks {
     }
 
     interface Rice {
-        void vuto(String text, float[] valori, int length);
+        void vuto(String text, char code, int[] valori, int length);
     }
 
     interface Pro {
