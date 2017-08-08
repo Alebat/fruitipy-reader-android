@@ -17,7 +17,7 @@ public class Hooks {
     private static Pro onProgress;
     private static final boolean test = false;
     private static StringBuilder result = null;
-    private static final int NUM_PACKETS = LENGTH_IR / 5;
+    private static final int DIM_PACKETS = 5;
     private static int received = 0;
 
     public static void received(String text) {
@@ -30,24 +30,24 @@ public class Hooks {
         } else if (text.endsWith("]")) {
             result.append(text);
             complete(result.toString());
+            received = LENGTH_IR / DIM_PACKETS;
         } else {
             result.append(text);
         }
         received++;
-        onProgress.gresso(received, NUM_PACKETS);
+        onProgress.gresso(received, LENGTH_IR / DIM_PACKETS);
     }
 
     public static void complete(String text) {
         Log.i("TAG", "received " + text);
         if (text.contains("[") && text.contains("]")) {
-            char code = text.charAt(text.indexOf('[') + 1);
             String[] t = text.substring(text.indexOf('[') + 3, text.indexOf(']')).split(" ");
             int[] brusciutto = new int[512];
             if (t.length < 512) {
                 for (int i = 0; i < t.length; i++) {
                     brusciutto[i] = Integer.parseInt(t[i].toUpperCase(), 16);
                 }
-
+                char code = t.length == LENGTH_IR ? 'I' : t.length == LENGTH_WHITE ? 'W' : 'X';
                 if (onReceived != null) {
                     onReceived.vuto(text, code, brusciutto, t.length);
                 }
