@@ -10,6 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bd41c4e-88b1-4c8c-aa57-8e5e167aa48c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_0_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="nRFUART_GoogleAPI_Android4.3+.iws" />
@@ -42,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UartService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UartService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/UartService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="834">
-              <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
+            <state relative-caret-position="503">
+              <caret line="304" column="58" lean-forward="true" selection-start-line="304" selection-start-column="58" selection-end-line="304" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -55,11 +64,9 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2249">
-              <caret line="297" column="12" selection-start-line="297" selection-start-column="12" selection-end-line="297" selection-end-column="12" />
+            <state relative-caret-position="3298">
+              <caret line="297" column="12" lean-forward="false" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="12" />
               <folding>
-                <element signature="e#5488#6133#0" expanded="true" />
-                <element signature="e#6132#6133#0" expanded="true" />
                 <element signature="class#6636:7205" expanded="false" />
                 <element signature="method#onServiceConnected#0;class#6636:7205" expanded="false" />
                 <element signature="method#onServiceDisconnected#0;class#6636:7205" expanded="false" />
@@ -80,14 +87,14 @@
       <file leaf-file-name="Hooks.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+            <state relative-caret-position="1020">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1912#1913#0" expanded="true" />
-                <element signature="e#1955#1956#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#2411#2412#0" expanded="true" />
+                <element signature="e#2454#2455#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -99,18 +106,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="833">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,16 +116,14 @@
       <file leaf-file-name="ShowActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-838">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="405">
+              <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
               <folding>
-                <element signature="e#885#1179#0" expanded="true" />
-                <element signature="e#986#1153#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1936#1947#0" expanded="true" />
-                <element signature="e#2063#2064#0" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#830#984#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1066#1278#0" expanded="true" />
+                <element signature="e#1277#1278#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,25 +132,8 @@
       <file leaf-file-name="DeviceListActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/DeviceListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-              <folding>
-                <element signature="e#4016#4042#0" expanded="true" />
-                <element signature="e#4574#4600#0" expanded="true" />
-                <element signature="e#6120#6133#0" expanded="true" />
-                <element signature="e#6308#6323#0" expanded="true" />
-                <element signature="e#6466#6479#0" expanded="true" />
-                <element signature="e#10948#10963#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="1870">
+              <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -170,13 +148,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>M</find>
+      <find>Merda</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.3-all/55gk2rcmfc6p2dg9u9ohc3hw9/gradle-3.3" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Ale\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -189,14 +173,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="Android-nRF-UART" />
+              <option name="name" value="fruitipy-reader-android" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="Android-nRF-UART" />
+                <option name="name" value="fruitipy-reader-android" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -214,7 +198,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'Android-nRF-UART'." />
+                <option name="description" value="Displays the sub-projects of root project 'fruitipy-reader-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -253,7 +237,7 @@
                 <option name="name" value="assembleDebugUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'Android-nRF-UART'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'fruitipy-reader-android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -263,7 +247,7 @@
                 <option name="name" value="mockableAndroidJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'Android-nRF-UART' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'fruitipy-reader-android' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -286,7 +270,7 @@
                 <option name="name" value="deviceCheck" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'Android-nRF-UART'." />
+                <option name="description" value="Displays all dependencies declared in root project 'fruitipy-reader-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -351,7 +335,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'Android-nRF-UART'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'fruitipy-reader-android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -464,7 +448,7 @@
                 <option name="name" value="uninstallDebugAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'Android-nRF-UART'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'fruitipy-reader-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -760,12 +744,12 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'Android-nRF-UART'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'fruitipy-reader-android'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'Android-nRF-UART'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'fruitipy-reader-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -873,7 +857,7 @@
                 <option name="name" value="generateReleaseResValues" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'Android-nRF-UART'." />
+                <option name="description" value="Displays the properties of root project 'fruitipy-reader-android'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -1544,7 +1528,6 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4494151214316" />
         <entry key="C:\Nordic Semiconductor\Android\Android_Studio_Tutor\nRFUART_GoogleAPI_Android4.3+" value="4323330893324" />
       </map>
     </option>
@@ -1560,20 +1543,19 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/2.3.3/65788fb3bedcc2f22c9658eb0772d7a189caefec/gradle-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/2.3.3/f73080687a2488471a668ee37df38aa19a63e5da/gradle-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/2.3.3/2a48149dd915a5359235f38302600a0b3e3f6753/gradle-core-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/2.3.3/2e96c3750f040fb0e48f4346c29b3924fe0dae08/gradle-core-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/7de57042a601aa94fabaeebf82a7e707dfa3da93/builder-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/cd1759718adfce446c850a616dfac9f5863459a0/builder-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/25.3.3/e9dc20419283dba5d984ee952a48a040c4704ae1/lint-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/25.3.3/abea61fde3e912a71fc1ce6c43e383533f6824b9/lint-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.3.3/ff67e03e1df006da698cf1ffb0b67540a512981b/gradle-api-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.3.3/3cc748d05ade0e279690b535e28d22fdf4341ada/gradle-api-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.3.3/ea33bc1031caa963fbe4441580205221752f7202/compilerCommon-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.3.3/1f0e06d55f3f72f3192b6e026d9a5a557d9e2ea6/compilerCommon-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.3.2/proguard-gradle-5.3.2.jar" />
@@ -1581,58 +1563,61 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr/3.5.2/antlr-3.5.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/2.3.3/9c797e827898828963579c0c36d0e2a5c939d61e/builder-model-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/2.3.3/d2d2d56a8dbd830a172b0917dfda87fdda9c6393/builder-model-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/2.3.3/b9847a795fd3d84c02891e7203116c4094e70ef7/builder-test-api-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/2.3.3/257ee44641dca594f94c00aa252626347a84ff72/builder-test-api-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/25.3.3/3487613a1457edadf22a43f104e9f1dbad93b7e2/sdklib-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/25.3.3/131aeb4b4bb637dd7c634c6ef89dd89e3acf39c2/sdklib-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/25.3.3/7fd5eaee9de5744815968ed9d28e12683f784b5d/sdk-common-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/25.3.3/bc87eae04486cb16eebd0b2db3a067977fd6a784/sdk-common-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/25.3.3/39a371f40a576386f0190db77cae334c16519307/common-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/25.3.3/b549ae6ded62a4408f48c602279c83255b9b95e6/common-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/25.3.3/3cea455a8b92d4b9acd26c48aae7ffd970bf1334/manifest-merger-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/25.3.3/5784f5b3d8813aafa0ac8938d493a7e800d80e7b/manifest-merger-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/25.3.3/46ae5783248b25ec844b26a6ded531e2b33bdd5c/ddmlib-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/25.3.3/7f26233ca08015988c925f4cfaa87b3ea615b310/ddmlib-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/25.3.3/f6ea1f350a549fdcc9c77ff1190fface991fc13e/protos-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/25.3.3/e6783d6c41bd9e52c826bf3e92a8f3fc00ed1093/protos-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/25.3.3/3a44cf02728d2d679ff72e2a31d0697ee24aadc9/shared-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/25.3.3/291cdfaac8a965df5452d66ea7ec597e81d6008a/shared-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/25.3.3/fdc95f0278619f805c03013e353660c5e5ec3a68/tracker-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/25.3.3/a4448e7a533c1d068a07da9a388fe499c1593b6a/tracker-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.3.3/53faba5ffd1864b0c15b84f376163b75c1269fbd/lint-checks-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.3.3/5a6b3823b59ba46496453da5f86fdb5664edaf43/lint-checks-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/4733427d241827dd95f1f2aaa0d974a99ac9fc75/baseLibrary-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/eb3399988a52099b0127e27fb5bed666eca86ace/baseLibrary-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.3.3/767bcc3012df7c6a4fd50886573c1de708b44b65/annotations-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.3.3/6c1474def63de173b5acb7bbe85b03596294c1fc/annotations-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/25.3.3/564b8c384fa4577f897152d33a278ef314b32894/layoutlib-api-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/25.3.3/efb8549f2080bfb6a4725000fc406da2a0d6e405/layoutlib-api-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/25.3.3/3feed5fc90f315dc3ff3e5131e2c5cbadac0115a/dvlib-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/25.3.3/7883888a1e9f8c78580148d0c32f0261459f8d8e/dvlib-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/25.3.3/bfa5b54b75d4460805ea99f1c1e5cb8e38e72e52/repository-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/25.3.3/f0ab4106aa02cf354712a1ee0e3abfd002c4cf4d/repository-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/25.3.3/5893679903cdfeb890a9f3ed8ae0c0e55bbf4d69/lint-api-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/25.3.3/69cae507e0ecd0c3f2817cbde7667cfc09455b8f/lint-api-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
@@ -1652,20 +1637,19 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/2.3.3/gradle-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-core/2.3.3/gradle-core-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder/2.3.3/builder-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint/25.3.3/lint-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/2.3.3/65788fb3bedcc2f22c9658eb0772d7a189caefec/gradle-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle/2.3.3/f73080687a2488471a668ee37df38aa19a63e5da/gradle-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/2.3.3/2a48149dd915a5359235f38302600a0b3e3f6753/gradle-core-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-core/2.3.3/2e96c3750f040fb0e48f4346c29b3924fe0dae08/gradle-core-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/7de57042a601aa94fabaeebf82a7e707dfa3da93/builder-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder/2.3.3/cd1759718adfce446c850a616dfac9f5863459a0/builder-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/25.3.3/e9dc20419283dba5d984ee952a48a040c4704ae1/lint-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint/25.3.3/abea61fde3e912a71fc1ce6c43e383533f6824b9/lint-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle-api/2.3.3/gradle-api-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/compilerCommon/2.3.3/compilerCommon-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.3.3/ff67e03e1df006da698cf1ffb0b67540a512981b/gradle-api-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/gradle-api/2.3.3/3cc748d05ade0e279690b535e28d22fdf4341ada/gradle-api-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.3.3/ea33bc1031caa963fbe4441580205221752f7202/compilerCommon-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/compilerCommon/2.3.3/1f0e06d55f3f72f3192b6e026d9a5a557d9e2ea6/compilerCommon-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm/5.0.4/asm-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-commons/5.0.4/asm-commons-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-gradle/5.3.2/proguard-gradle-5.3.2.jar" />
@@ -1673,58 +1657,61 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/jacoco/org.jacoco.report/0.7.5.201505241946/org.jacoco.report-0.7.5.201505241946.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/protobuf/protobuf-java/3.0.0/protobuf-java-3.0.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-model/2.3.3/builder-model-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/builder-test-api/2.3.3/builder-test-api-2.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdklib/25.3.3/sdklib-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/sdk-common/25.3.3/sdk-common-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/common/25.3.3/common-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/manifest-merger/25.3.3/manifest-merger-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/ddms/ddmlib/25.3.3/ddmlib-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr/3.5.2/antlr-3.5.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/2.3.3/9c797e827898828963579c0c36d0e2a5c939d61e/builder-model-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-model/2.3.3/d2d2d56a8dbd830a172b0917dfda87fdda9c6393/builder-model-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/2.3.3/b9847a795fd3d84c02891e7203116c4094e70ef7/builder-test-api-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/builder-test-api/2.3.3/257ee44641dca594f94c00aa252626347a84ff72/builder-test-api-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/25.3.3/3487613a1457edadf22a43f104e9f1dbad93b7e2/sdklib-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdklib/25.3.3/131aeb4b4bb637dd7c634c6ef89dd89e3acf39c2/sdklib-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/25.3.3/7fd5eaee9de5744815968ed9d28e12683f784b5d/sdk-common-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/sdk-common/25.3.3/bc87eae04486cb16eebd0b2db3a067977fd6a784/sdk-common-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/25.3.3/39a371f40a576386f0190db77cae334c16519307/common-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/common/25.3.3/b549ae6ded62a4408f48c602279c83255b9b95e6/common-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/25.3.3/3cea455a8b92d4b9acd26c48aae7ffd970bf1334/manifest-merger-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.build/manifest-merger/25.3.3/5784f5b3d8813aafa0ac8938d493a7e800d80e7b/manifest-merger-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/25.3.3/46ae5783248b25ec844b26a6ded531e2b33bdd5c/ddmlib-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/25.3.3/7f26233ca08015988c925f4cfaa87b3ea615b310/ddmlib-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jack/jack-api/0.13.0/jack-api-0.13.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/jill/jill-api/0.10.0/jill-api-0.10.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/protos/25.3.3/protos-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/shared/25.3.3/shared-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/analytics-library/tracker/25.3.3/tracker-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/25.3.3/f6ea1f350a549fdcc9c77ff1190fface991fc13e/protos-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/protos/25.3.3/e6783d6c41bd9e52c826bf3e92a8f3fc00ed1093/protos-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/25.3.3/3a44cf02728d2d679ff72e2a31d0697ee24aadc9/shared-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/shared/25.3.3/291cdfaac8a965df5452d66ea7ec597e81d6008a/shared-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/25.3.3/fdc95f0278619f805c03013e353660c5e5ec3a68/tracker-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.analytics-library/tracker/25.3.3/a4448e7a533c1d068a07da9a388fe499c1593b6a/tracker-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcpkix-jdk15on/1.48/bcpkix-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/bouncycastle/bcprov-jdk15on/1.48/bcprov-jdk15on-1.48.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-tree/5.0.4/asm-tree-5.0.4.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-checks/25.3.3/lint-checks-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.3.3/53faba5ffd1864b0c15b84f376163b75c1269fbd/lint-checks-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-checks/25.3.3/5a6b3823b59ba46496453da5f86fdb5664edaf43/lint-checks-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/eclipse/jdt/core/compiler/ecj/4.6.1/ecj-4.6.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/guava/guava/18.0/guava-18.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/databinding/baseLibrary/2.3.3/baseLibrary-2.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/4733427d241827dd95f1f2aaa0d974a99ac9fc75/baseLibrary-2.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.3.3/eb3399988a52099b0127e27fb5bed666eca86ace/baseLibrary-2.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/annotations/25.3.3/annotations-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.3.3/767bcc3012df7c6a4fd50886573c1de708b44b65/annotations-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/annotations/25.3.3/6c1474def63de173b5acb7bbe85b03596294c1fc/annotations-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/proguard/proguard-base/5.3.2/proguard-base-5.3.2.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-debug-all/5.0.1/asm-debug-all-5.0.1.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/layoutlib/layoutlib-api/25.3.3/layoutlib-api-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/dvlib/25.3.3/dvlib-25.3.3.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/repository/25.3.3/repository-25.3.3.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar" />
+                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/antlr/ST4/4.0.8/ST4-4.0.8.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/25.3.3/564b8c384fa4577f897152d33a278ef314b32894/layoutlib-api-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/25.3.3/efb8549f2080bfb6a4725000fc406da2a0d6e405/layoutlib-api-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/25.3.3/3feed5fc90f315dc3ff3e5131e2c5cbadac0115a/dvlib-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/dvlib/25.3.3/7883888a1e9f8c78580148d0c32f0261459f8d8e/dvlib-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/25.3.3/bfa5b54b75d4460805ea99f1c1e5cb8e38e72e52/repository-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools/repository/25.3.3/f0ab4106aa02cf354712a1ee0e3abfd002c4cf4d/repository-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3-sources.jar" />
-                            <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/lint/lint-api/25.3.3/lint-api-25.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/25.3.3/5893679903cdfeb890a9f3ed8ae0c0e55bbf4d69/lint-api-25.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.lint/lint-api/25.3.3/69cae507e0ecd0c3f2817cbde7667cfc09455b8f/lint-api-25.3.3.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/org/ow2/asm/asm-analysis/5.0.4/asm-analysis-5.0.4.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar" />
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar" />
@@ -1741,7 +1728,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="app" />
+              <option name="name" value="fruitipy-reader-android" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
@@ -1768,29 +1755,20 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Injections.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Lay.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="24" />
-    <option name="width" value="1631" />
-    <option name="height" value="1026" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1426" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -1806,35 +1784,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Android-nRF-UART" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android-nRF-UART" />
+              <option name="myItemId" value="fruitipy-reader-android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Android-nRF-UART" />
+              <option name="myItemId" value="fruitipy-reader-android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Android-nRF-UART" />
+              <option name="myItemId" value="fruitipy-reader-android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Android-nRF-UART" />
+              <option name="myItemId" value="fruitipy-reader-android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1842,11 +1810,89 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fruitipy-reader-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fruitipy-reader-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fruitipy-reader-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fruitipy-reader-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fruitipy-reader-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fruitipy-reader-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nrfUARTv2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1866,7 +1912,8 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_7_by_Google" />
     <property name="FullScreen" value="false" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="device.picker.selection" value="4d0007c7140e50dd" />
+    <property name="device.picker.selection" value="9e41c92f" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1518445485487" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.packageName">
@@ -1875,6 +1922,18 @@
     <key name="android.template.parentActivityClass">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -1908,7 +1967,6 @@
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -1942,13 +2000,14 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518448273765" />
+      </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
       <module name="" />
@@ -1958,7 +2017,6 @@
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -1992,11 +2050,12 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
-      <method />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518448273765" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -2036,6 +2095,27 @@
       <setting name="params" value="" />
       <setting name="workDir" value="file://$PROJECT_DIR$" />
       <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2084,23 +2164,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -2137,159 +2200,13 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="app" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration default="false" name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
@@ -2323,13 +2240,14 @@
         <option name="SHOW_OPTIMIZED_WARNING" value="true" />
       </Native>
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method />
+      <method>
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518448273766" />
+      </method>
     </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Android App.app" />
@@ -2462,43 +2380,92 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="24" width="1631" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1426" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298887" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32886437" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30445153" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32886437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32594234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32981783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -2518,24 +2485,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_element.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1098">
-          <caret line="120" column="24" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+          <caret line="120" column="24" lean-forward="false" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
           <folding>
-            <element signature="e#5488#6133#0" expanded="true" />
-            <element signature="e#6132#6133#0" expanded="true" />
             <element signature="class#6636:7205" expanded="false" />
             <element signature="method#onServiceConnected#0;class#6636:7205" expanded="false" />
             <element signature="method#onServiceDisconnected#0;class#6636:7205" expanded="false" />
@@ -2555,22 +2509,15 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/DeviceListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4248">
-          <caret line="298" column="45" selection-start-line="298" selection-start-column="45" selection-end-line="298" selection-end-column="45" />
-          <folding>
-            <element signature="e#4016#4042#0" expanded="true" />
-            <element signature="e#4574#4600#0" expanded="true" />
-            <element signature="e#6120#6133#0" expanded="true" />
-            <element signature="e#6308#6323#0" expanded="true" />
-            <element signature="e#6466#6479#0" expanded="true" />
-            <element signature="e#10948#10963#0" expanded="true" />
-          </folding>
+          <caret line="298" column="45" lean-forward="false" selection-start-line="298" selection-start-column="45" selection-end-line="298" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -2578,7 +2525,7 @@
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -2586,7 +2533,7 @@
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2594,7 +2541,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2602,7 +2549,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/UartService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2610,7 +2557,7 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2618,16 +2565,19 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1518445463178" expanded="true" signature="112:155" ph="{...}" />
+            <marker date="1518445463178" expanded="true" signature="131:141" ph="{" />
+            <marker date="1518445463178" expanded="true" signature="150:155" ph="}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2637,7 +2587,7 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2645,7 +2595,7 @@
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2653,7 +2603,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1044">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -2661,37 +2611,35 @@
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-manifest">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/UartService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="834">
-          <caret line="263" column="25" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
+        <state relative-caret-position="3757">
+          <caret line="263" column="25" lean-forward="false" selection-start-line="263" selection-start-column="25" selection-end-line="263" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2249">
-          <caret line="297" column="12" selection-start-line="297" selection-start-column="12" selection-end-line="297" selection-end-column="12" />
+        <state relative-caret-position="3553">
+          <caret line="297" column="12" lean-forward="false" selection-start-line="297" selection-start-column="12" selection-end-line="297" selection-end-column="12" />
           <folding>
-            <element signature="e#5488#6133#0" expanded="true" />
-            <element signature="e#6132#6133#0" expanded="true" />
             <element signature="class#6636:7205" expanded="false" />
             <element signature="method#onServiceConnected#0;class#6636:7205" expanded="false" />
             <element signature="method#onServiceDisconnected#0;class#6636:7205" expanded="false" />
@@ -2710,69 +2658,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="8" />
+        <state relative-caret-position="1088">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#1955#1956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-838">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding>
-            <element signature="e#885#1179#0" expanded="true" />
-            <element signature="e#986#1153#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1936#1947#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2094#2095#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/DeviceListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#4016#4042#0" expanded="true" />
-            <element signature="e#4574#4600#0" expanded="true" />
-            <element signature="e#6120#6133#0" expanded="true" />
-            <element signature="e#6308#6323#0" expanded="true" />
-            <element signature="e#6466#6479#0" expanded="true" />
-            <element signature="e#10948#10963#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1518445463178" expanded="true" signature="112:155" ph="{...}" />
+            <marker date="1518445463178" expanded="true" signature="131:141" ph="{" />
+            <marker date="1518445463178" expanded="true" signature="150:155" ph="}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml" />
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/nordicsemi/nrfUARTv2/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
-          <caret line="3149" column="21" selection-start-line="3149" selection-start-column="21" selection-end-line="3149" selection-end-column="21" />
+          <caret line="3149" column="21" lean-forward="false" selection-start-line="3149" selection-start-column="21" selection-end-line="3149" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -2782,16 +2704,288 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        <state relative-caret-position="34">
+          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="510">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#830#984#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1066#1278#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_element.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="120" column="24" lean-forward="false" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+          <folding>
+            <element signature="class#6636:7205" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#6636:7205" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#6636:7205" expanded="false" />
+            <element signature="class#7243:7407" expanded="false" />
+            <element signature="method#handleMessage#0;class#7243:7407" expanded="false" />
+            <element signature="method#service_init#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#makeGattUpdateIntentFilter#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCheckedChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#showMessage#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/DeviceListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4248">
+          <caret line="298" column="45" lean-forward="false" selection-start-line="298" selection-start-column="45" selection-end-line="298" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/UartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1518445463178" expanded="true" signature="112:155" ph="{...}" />
+            <marker date="1518445463178" expanded="true" signature="131:141" ph="{" />
+            <marker date="1518445463178" expanded="true" signature="150:155" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import-summary.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/device_element.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <marker date="1518445463178" expanded="true" signature="112:155" ph="{...}" />
+            <marker date="1518445463178" expanded="true" signature="131:141" ph="{" />
+            <marker date="1518445463178" expanded="true" signature="150:155" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ldltr-v21/values-ldltr-v21.xml" />
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/nordicsemi/nrfUARTv2/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="3149" column="21" lean-forward="false" selection-start-line="3149" selection-start-column="21" selection-end-line="3149" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/DeviceListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3298">
+          <caret line="297" column="12" lean-forward="false" selection-start-line="297" selection-start-column="7" selection-end-line="297" selection-end-column="12" />
+          <folding>
+            <element signature="class#6636:7205" expanded="false" />
+            <element signature="method#onServiceConnected#0;class#6636:7205" expanded="false" />
+            <element signature="method#onServiceDisconnected#0;class#6636:7205" expanded="false" />
+            <element signature="class#7243:7407" expanded="false" />
+            <element signature="method#handleMessage#0;class#7243:7407" expanded="false" />
+            <element signature="method#service_init#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#makeGattUpdateIntentFilter#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onConfigurationChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onCheckedChanged#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#showMessage#0;class#MainActivity#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#MainActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/ShowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="24" lean-forward="false" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#830#984#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1066#1278#0" expanded="true" />
+            <element signature="e#1277#1278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#2411#2412#0" expanded="true" />
+            <element signature="e#2454#2455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/nordicsemi/nrfUARTv2/UartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="304" column="58" lean-forward="true" selection-start-line="304" selection-start-column="58" selection-end-line="304" selection-end-column="58" />
           <folding />
         </state>
       </provider>

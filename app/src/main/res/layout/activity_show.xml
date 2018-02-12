@@ -4,25 +4,46 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.nordicsemi.nrfUARTv2.ShowActivity">
-        <EditText
-            android:layout_width="match_parent"
+    tools:context="com.nordicsemi.nrfUARTv2.ShowActivity"
+    android:gravity="center_horizontal">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="textUri"
+        android:id="@+id/textid"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Ancora niente"
+        android:textSize="20sp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="ID"
-            android:inputType="textUri"
-            android:id="@+id/textid"/>
-        <ProgressBar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@android:style/Widget.ProgressBar.Horizontal"
-            android:id="@id/progress_horizontal"/>
-        <com.jjoe64.graphview.GraphView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/graph"
+            android:id="@+id/acqonce"
+            android:text="Acquisisci"
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="40dp" />
+            android:layout_marginLeft="16dp" />
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/acqloop"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp" />
     </LinearLayout>
+</LinearLayout>
